@@ -3,75 +3,75 @@
 
     <item
         is-multidex="true"
-        jar="D:\githubRepo\PolaRide\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\classes.jar"
+        jar="D:\githubRepo\polaride\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
         sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
-        <dex dex="D:\githubRepo\PolaRide\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.0_aede70c89093bb736d93c098ac0042b44b7f1020\classes.dex" />
+        <dex dex="D:\githubRepo\polaride\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.0_d9c5c52a2a9bb9f9e2d55ac296c448379de9c403\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\githubRepo\PolaRide\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\classes.jar"
+        jar="D:\githubRepo\polaride\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
         sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
-        <dex dex="D:\githubRepo\PolaRide\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.0_82e4509ec911f4a0487decf8a027172f88cf0eb0\classes.dex" />
+        <dex dex="D:\githubRepo\polaride\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.0_afc2c185412be2595356ab53ad7186873527c1c9\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\githubRepo\PolaRide\app\build\intermediates\exploded-aar\com.android.volley\volley\1.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
-        <dex dex="D:\githubRepo\PolaRide\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.volley-volley-1.0.0_984dcb1d7eb4be31817cde9f61f5e47e26c3ae0f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\githubRepo\PolaRide\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jar="D:\githubRepo\polaride\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
         sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
-        <dex dex="D:\githubRepo\PolaRide\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_180e8ea8e71879af40c843b108ebbcc3e619b645\classes.dex" />
+        <dex dex="D:\githubRepo\polaride\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_cb17540eead2e43269ba6964d7d34eaf4fd552e0\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\githubRepo\PolaRide\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jar="D:\githubRepo\polaride\app\build\intermediates\exploded-aar\com.android.volley\volley\1.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="D:\githubRepo\polaride\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.volley-volley-1.0.0_f78e6ecf361610f98ae87750afd3560dcf3c9422\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\githubRepo\polaride\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
         sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
-        <dex dex="D:\githubRepo\PolaRide\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_2b470cf7fdc2e704e6d903fda347aafc564bd8d3\classes.dex" />
+        <dex dex="D:\githubRepo\polaride\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_bf6e5a4438337464a382ef6cd693fe9da961cdca\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\githubRepo\PolaRide\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.0\jars\classes.jar"
+        jar="D:\githubRepo\polaride\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
         sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
-        <dex dex="D:\githubRepo\PolaRide\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.0.0_36dcaf135516b35de7263c00f05a7ff766eb96cb\classes.dex" />
+        <dex dex="D:\githubRepo\polaride\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.0.0_c68dc5075144825bca912a3526ea5d59bd78ca49\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\githubRepo\PolaRide\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jar="D:\githubRepo\polaride\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\libs\internal_impl-25.0.0.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
         sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
-        <dex dex="D:\githubRepo\PolaRide\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_0a338ba90e013a1d9b6b2129eca658ac88653917\classes.dex" />
+        <dex dex="D:\githubRepo\polaride\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_011aa0c46fc7ccb8b8034c9008f3930f2e9a79ad\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\githubRepo\PolaRide\app\build\intermediates\exploded-aar\com.android.support\customtabs\25.0.0\jars\classes.jar"
+        jar="D:\githubRepo\polaride\app\build\intermediates\exploded-aar\com.android.support\customtabs\25.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
         sha1="94ba691efc31bf53264db0716d9c9ec03843ea31">
-        <dex dex="D:\githubRepo\PolaRide\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-customtabs-25.0.0_5e4cb6090499b228f1aa78d1332816555ba8bc18\classes.dex" />
+        <dex dex="D:\githubRepo\polaride\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-customtabs-25.0.0_d6600f314d164e8a7e1873ce7bd3549177330dc9\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -80,61 +80,70 @@
         optimize="true"
         revision="23.0.2"
         sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
-        <dex dex="D:\githubRepo\PolaRide\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.0_fbb6a60bbb37f4ce40e4d86f84717266ea6ba62a\classes.dex" />
+        <dex dex="D:\githubRepo\polaride\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.0_fbb6a60bbb37f4ce40e4d86f84717266ea6ba62a\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\githubRepo\PolaRide\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\jars\classes.jar"
+        jar="C:\Users\ChunKiet\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3.1\ecb6e1f8e4b0e84c4b886c2f14a1500caf309757\gson-2.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="D:\githubRepo\polaride\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.3.1_240676d6a9ce4285efd1f6e829d4ec340422d9a7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\githubRepo\polaride\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="D:\githubRepo\PolaRide\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.0_d529ffd9412835d538ebb12bb0f53dbbc86376dd\classes.dex" />
+        <dex dex="D:\githubRepo\polaride\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.0_829650672eb4786e493994759cb32c9c837a3c25\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\githubRepo\PolaRide\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.0.0\jars\classes.jar"
+        jar="D:\githubRepo\polaride\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
         sha1="8a372c4191f80489770a231f7be4820b204b886a">
-        <dex dex="D:\githubRepo\PolaRide\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-25.0.0_39352005a0d0e20591e0e288b2c107f291c097f8\classes.dex" />
+        <dex dex="D:\githubRepo\polaride\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-25.0.0_d96d5fa825bc0d11a0bf255d69e35395557b23d2\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\githubRepo\PolaRide\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\classes.jar"
+        jar="D:\githubRepo\polaride\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
         sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
-        <dex dex="D:\githubRepo\PolaRide\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.0_71420086d758b5a3403e37854a885755e29e8fcc\classes.dex" />
+        <dex dex="D:\githubRepo\polaride\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.0_447e738c04757e50da66f25b3e1f5dda66e4a7d6\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\githubRepo\PolaRide\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="D:\githubRepo\polaride\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="511c6b3067ac4c605777287a8b8985c509e0fdad">
-        <dex dex="D:\githubRepo\PolaRide\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_4edb056c7e3b395c5525b8f476a22cc803fba061\classes.dex" />
+        sha1="8a8d1a2c512cc4967d618632399fe74344e40496">
+        <dex dex="D:\githubRepo\polaride\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_122105761114b096a46e17ced79cdeda20004a86\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\githubRepo\PolaRide\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jar="D:\githubRepo\polaride\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\libs\internal_impl-25.0.0.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
         sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="D:\githubRepo\PolaRide\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_57279f3d964c64b356075aef678881e1aa1501e3\classes.dex" />
+        <dex dex="D:\githubRepo\polaride\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_9be6814e2a20b6e31f24627781b425d5f6ced644\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\githubRepo\PolaRide\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.17.0\jars\classes.jar"
+        jar="D:\githubRepo\polaride\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.17.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
         sha1="23c7c34bfb3cdc0599d49e581486b179bc6b2eee">
-        <dex dex="D:\githubRepo\PolaRide\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.facebook.android-facebook-android-sdk-4.17.0_57f933081c391202eb428b96537bbd7ca2851332\classes.dex" />
+        <dex dex="D:\githubRepo\polaride\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.facebook.android-facebook-android-sdk-4.17.0_f480223b202dcfdd7441b0903ff4c5b9dd49277a\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -143,25 +152,25 @@
         optimize="true"
         revision="23.0.2"
         sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
-        <dex dex="D:\githubRepo\PolaRide\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-applinks-1.4.0_d1301d290e442e584b5232a95648f85dd1c31638\classes.dex" />
+        <dex dex="D:\githubRepo\polaride\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-applinks-1.4.0_d1301d290e442e584b5232a95648f85dd1c31638\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\githubRepo\PolaRide\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\classes.jar"
+        jar="D:\githubRepo\polaride\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
         sha1="26674000177e45447a0326a6ad84612761199a13">
-        <dex dex="D:\githubRepo\PolaRide\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.0_565dc90799e5a2e364da95fface8681415fc4c11\classes.dex" />
+        <dex dex="D:\githubRepo\polaride\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.0_feadbc43d2883b38b16f2743f936b7d589acd4c6\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\githubRepo\PolaRide\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\classes.jar"
+        jar="D:\githubRepo\polaride\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
         sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
-        <dex dex="D:\githubRepo\PolaRide\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.0_9773362330cc04f82e6c9c6620c83250ddca9ceb\classes.dex" />
+        <dex dex="D:\githubRepo\polaride\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.0_aab2af062a86c34144cd635dc8a4c726623c6c21\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -170,43 +179,43 @@
         optimize="true"
         revision="23.0.2"
         sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="D:\githubRepo\PolaRide\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-tasks-1.4.0_be3c4a73e833c34e6fb96ced8ada30c34a831ea2\classes.dex" />
+        <dex dex="D:\githubRepo\polaride\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-tasks-1.4.0_be3c4a73e833c34e6fb96ced8ada30c34a831ea2\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\githubRepo\PolaRide\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.0\jars\classes.jar"
+        jar="D:\githubRepo\polaride\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
         sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
-        <dex dex="D:\githubRepo\PolaRide\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.0.0_01bd08e1c7557db3055ae5525198443e658855bc\classes.dex" />
+        <dex dex="D:\githubRepo\polaride\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.0.0_c66c2606b9fbc30e87f3e96ddd67503c2835e8f8\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\githubRepo\PolaRide\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="D:\githubRepo\polaride\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="0126bf696f1681901f68cdbcef1e7e0c81b8475f">
-        <dex dex="D:\githubRepo\PolaRide\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_1af88c8d3b317d8a00083deeaa1ed5fcff0b8d7f\classes.dex" />
+        sha1="5c0d9ffccb971339149ee587a66b298f6c4d15c6">
+        <dex dex="D:\githubRepo\polaride\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_3e56e593a30242dab9d12cc1a09bc9d3deef561a\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\githubRepo\PolaRide\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.0\jars\classes.jar"
+        jar="D:\githubRepo\polaride\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
         sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
-        <dex dex="D:\githubRepo\PolaRide\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.0_22509d2a29bbb5c97cf3307f8ce74a83358a286b\classes.dex" />
+        <dex dex="D:\githubRepo\polaride\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.0_77de1f66f6903fd23f64ddd3b6b68fa42fa1807e\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="D:\githubRepo\PolaRide\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jar="D:\githubRepo\polaride\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\libs\internal_impl-25.0.0.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
         sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
-        <dex dex="D:\githubRepo\PolaRide\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_13f1711ffe9372b00b6fae48ffb7eef14505cef3\classes.dex" />
+        <dex dex="D:\githubRepo\polaride\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_b9d0872598fd80705208b0cd13ffdb7a1069df83\classes.dex" />
     </item>
 
 </items>
