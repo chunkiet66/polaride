@@ -25,6 +25,15 @@ import com.google.gson.Gson;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import com.twitter.sdk.android.Twitter;
+import com.twitter.sdk.android.core.TwitterAuthConfig;
+import com.twitter.sdk.android.core.Callback;
+import com.twitter.sdk.android.core.Result;
+import com.twitter.sdk.android.core.TwitterException;
+import com.twitter.sdk.android.core.TwitterSession;
+import com.twitter.sdk.android.core.identity.TwitterLoginButton;
+import io.fabric.sdk.android.Fabric;
+
 
 public class LoginActivity extends AppCompatActivity {
     public class LoginPOJO {
@@ -49,6 +58,13 @@ public class LoginActivity extends AppCompatActivity {
     static LoginButton mFacebookSignInButton;
     static AccessToken mFacebookAccessToken;
 
+    static TwitterLoginButton mTwitterSignInButton;
+
+    // Note: Your consumer key and secret should be obfuscated in your source code before shipping.
+    private static final String TWITTER_KEY = "Lp3tvQitZbjwrhwCVxIN1w6Gz";
+    private static final String TWITTER_SECRET = "nxt7PkXJabMY3IQQetjmbhoCUTJtQC2ejX2H3kkNdXdrzftiVp";
+
+
     LoginPOJO loginPOJO = new LoginPOJO();
 
     @Override
@@ -58,6 +74,9 @@ public class LoginActivity extends AppCompatActivity {
 
         FacebookSdk.sdkInitialize(getApplicationContext());
         mFacebookCallbackManager = CallbackManager.Factory.create();
+
+        TwitterAuthConfig authConfig = new TwitterAuthConfig(TWITTER_KEY, TWITTER_SECRET);
+        Fabric.with(this, new Twitter(authConfig));
 
         setContentView(R.layout.activity_login);
 
@@ -75,7 +94,7 @@ public class LoginActivity extends AppCompatActivity {
                         loginPOJO.setUserId(mFacebookAccessToken.getUserId());
                         loginPOJO.setUserToken(mFacebookAccessToken.getToken());
 
-                        sendFacebookTokenToServer(loginPOJO);
+                        sendTokenToServer(loginPOJO);
                     }
 
                     @Override
@@ -90,20 +109,43 @@ public class LoginActivity extends AppCompatActivity {
                 }
         );
 
+        mTwitterSignInButton = (TwitterLoginButton) findViewById(R.id.twitter_sign_in_button);
+        mTwitterSignInButton.setCallback(new Callback<TwitterSession>() {
+            @Override
+            public void success(Result<TwitterSession> result) {
+                // Do something with result, which provides a TwitterSession for making API calls
+                loginPOJO.setLoginMethod("twitter");
+                loginPOJO.setUserId(String.valueOf(result.data.getUserId()));
+                loginPOJO.setUserToken(result.data.getAuthToken().toString());
+
+                sendTokenToServer(loginPOJO);
+            }
+
+            @Override
+            public void failure(TwitterException exception) {
+                // Do something on failure
+                Log.d(LoginActivity.class.getCanonicalName(), exception.getMessage());
+            }
+        });
+
     }
 
     @Override
-    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
 
         mFacebookCallbackManager.onActivityResult(requestCode, resultCode, data);
+
+        if(TwitterAuthConfig.DEFAULT_AUTH_REQUEST_CODE == requestCode) {
+            mTwitterSignInButton.onActivityResult(requestCode, resultCode, data);
+        }
     }
 
     public static Context getAppContext() {
         return LoginActivity.context;
     }
 
-    static void sendFacebookTokenToServer(LoginPOJO loginPOJO) {
+    static void sendTokenToServer(LoginPOJO loginPOJO) {
         RequestQueue queue = Volley.newRequestQueue(getAppContext());
         String url = "http://private-861e1e-remoraapi.apiary-mock.com/user/mobile/login";
 

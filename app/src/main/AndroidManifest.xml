@@ -9,7 +9,14 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id"/>
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="f5e649fdbb7ae52c864fa7a39f0a62e5ec22c52a"
+        />
+
 
         <activity android:name=".LoginActivity">
             <intent-filter>
