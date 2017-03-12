@@ -2,10 +2,12 @@ package com.polaride;
 
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.provider.Settings;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.TextView;
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -71,14 +73,18 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         LoginActivity.context = getApplicationContext();
+        setContentView(R.layout.activity_login);
 
-        FacebookSdk.sdkInitialize(getApplicationContext());
         mFacebookCallbackManager = CallbackManager.Factory.create();
 
         TwitterAuthConfig authConfig = new TwitterAuthConfig(TWITTER_KEY, TWITTER_SECRET);
         Fabric.with(this, new Twitter(authConfig));
 
-        setContentView(R.layout.activity_login);
+
+
+        TextView loginAppName = (TextView)findViewById(R.id.login_app_name);
+        Typeface dosis_bold = Typeface.createFromAsset(getAssets(), "fonts/Dosis-Bold.otf");
+        loginAppName.setTypeface(dosis_bold);
 
         mFacebookSignInButton = (LoginButton)findViewById(R.id.facebook_sign_in_button);
         mFacebookSignInButton.setReadPermissions("email");
